@@ -1,0 +1,91 @@
+//   .then(response => response.json())
+        //   .then(response =>
+        //     {
+        //       console.log('hi',response)
+        //       if(response){
+        //         fetch('http://localhost:3000/image',{
+        //           method:'put',
+        //           headers:{'Content-Type' : 'application/json'},
+        //           body: JSON.stringify({
+        //             id:this.state.user.id
+        //           })
+        //         })
+        //         .then(response=> response.json())
+        //         .then(count=>{
+        //           this.setState(Object.assign(this.state.user,{entries:count}))
+        //         })
+        //       }
+        //       this.displayFaceBox(this.calculateFaceLocation(response))
+        //     })
+        // .catch(error => console.log('error', error));
+
+        {
+  "regions": [
+    {
+      "data": {
+        "concepts": [
+          {
+            "app_id": "main",
+            "id": "ai_b1b1b1b1",
+            "name": "BINARY_POSITIVE",
+            "value": 0.9827497
+          }
+        ]
+      },
+      "id": "da91443082a8d56c6afe96d5dec9d75e",
+      "region_info": {
+        "bounding_box": {
+          "bottom_row": 0.4601788,
+          "left_col": 0.6742708,
+          "right_col": 0.7372631,
+          "top_row": 0.32203546
+        }
+      },
+      "value": 0.9827497
+    },
+    {
+      "data": {
+        "concepts": [
+          {
+            "app_id": "main",
+            "id": "ai_b1b1b1b1",
+            "name": "BINARY_POSITIVE",
+            "value": 0.94050133
+          }
+        ]
+      },
+      "id": "1c25a94f6ce1ddba0142ed3d9ea52c5d",
+      "region_info": {
+        "bounding_box": {
+          "bottom_row": 0.46288866,
+          "left_col": 0.15568428,
+          "right_col": 0.21419635,
+          "top_row": 0.32342058
+        }
+      },
+      "value": 0.94050133
+    },
+    {
+      "data": {
+        "concepts": [
+          {
+            "app_id": "main",
+            "id": "ai_b1b1b1b1",
+            "name": "BINARY_POSITIVE",
+            "value": 0.93389475
+          }
+        ]
+      },
+      "id": "e495dbc30a629a5da933acfc7ab15d8d",
+      "region_info": {
+        "bounding_box": {
+          "bottom_row": 0.65176886,
+          "left_col": 0.5574365,
+          "right_col": 0.649708,
+          "top_row": 0.46757302
+        }
+      },
+      "value": 0.93389475
+    }
+  ]
+}
